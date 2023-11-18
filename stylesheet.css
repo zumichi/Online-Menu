@@ -15,7 +15,6 @@ body {
    height: 50%;
    position: sticky;
    top: 0;
-   %background-color: #ffc880;
    
 } .rname {
    
@@ -42,7 +41,7 @@ body {
 } .cir2 {
    
    width: 65%;
-   background-image: url('img/sample-pasta.jpeg');
+   background-image: url('sample-pasta.jpeg');
    background-size: cover;
    background-position: 70%;
    background-repeat: no-repeat;
