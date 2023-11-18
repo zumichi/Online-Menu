@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Order Form</title>
+   <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+   <div class="headpage">
+      <div class="circbox">
+         <div class="circle"> 
+            <div class="cir1"></div>
+            <div class="cir2"></div>
+         </div>
+         <h1 class="rname">
+            Jes'm<br>
+            Restaurant
+         </h1>         
+      </div>
+   </div>
+   
+   
+   <h2>Pastas</h2>
+    <form action="/submit_order" method="post">
+        <label for="pasta">Select a Beverage:</label>
+        <select id="pasta" name="pasta">
+            <option value="Spaghetti">Spaghetti</option>
+            <option value="Fettuccine">Fettuccine</option>
+            <option value="Macaroni">Macaroni</option>
+            <option value="Fusilli">Fusilli</option>
+        </select>
+
+        <br>
+
+        <label for="size">Order Size:</label>
+        <input type="radio" id="ones" name="size" value="small">
+        <label for="ones">For one</label>
+        <input type="radio" id="twos" name="size" value="medium">
+        <label for="twos">For two</label>
+        <input type="radio" id="fam" name="size" value="large">
+        <label for="fam">Family</label>
+
+        <br>
+        
+        <input type="submit" value="Place Order">
+    </form>
+    
+    <h2>Desserts</h2>
+    <form action="/submit_order" method="post">
+        <label for="dessert">Select a Dessert:</label>
+        <select id="dessert" name="dessert">
+            <option value="coffee">Cake</option>
+            <option value="soda">Ice cream</option>
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+        <br>
+
+        <input type="submit" value="Place Order">
+    </form>
+   
+   <h2>Beverages</h2>
+    <form action="/submit_order" method="post">
+        <label for="beverage">Select a Beverage:</label>
+        <select id="beverage" name="beverage">
+            <option value="coffee">Coffee</option>
+            <option value="tea">Tea</option>
+            <option value="soda">Soda</option>
+            <option value="juice">Juice</option>
+        </select>
+
+        <br>
+
+        <label for="size">Select Size:</label>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label>
+
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+        <br>
+
+        <input type="submit" value="Place Order">
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
